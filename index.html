@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DURU — 바이크 거래의 새 기준 | 주식회사 291플러스</title>
+  <meta name="description" content="DURU는 중고 바이크, 샵 인증 매물, 신차까지 한 곳에서 거래하는 바이크 전문 플랫폼입니다." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header>
+  <div class="container">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">DURU</span>
+        <span class="logo-sep"></span>
+        <span class="logo-company">주식회사 291플러스</span>
+      </a>
+      <nav id="nav">
+        <a href="#services">서비스 소개</a>
+        <a href="#features">주요 기능</a>
+        <a href="support.html">고객센터</a>
+        <a href="#download" class="btn-header">앱 다운로드</a>
+      </nav>
+      <div class="hamburger" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="container">
+    <div class="hero-inner">
+
+      <div>
+        <div class="hero-kicker">
+          <div class="kicker-dot"></div>
+          <span class="kicker-text">바이크 거래 플랫폼 · 출시 예정</span>
+        </div>
+        <h1>
+          바이크 거래,<br />
+          이제 <span class="accent">DURU</span>로<br />
+          시작하세요
+        </h1>
+        <p class="hero-desc">
+          중고부터 샵 인증, 신차까지.<br />
+          전국 10,590개 매물을 한 곳에서.<br />
+          검증된 딜러와 더 안전하게 거래하세요.
+        </p>
+        <div class="hero-btns" id="download">
+          <a href="#" class="btn-dl main">
+            <svg class="dl-icon" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+            </svg>
+            <span class="dl-label">
+              <span>Download on the</span>
+              <strong>App Store</strong>
+            </span>
+          </a>
+          <a href="#" class="btn-dl sub">
+            <svg class="dl-icon" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M3.18 23.76c.37.19.8.2 1.22-.05l12.5-7.13-2.67-2.7-11.05 9.88zm-1.09-20.4C2.03 3.6 2 3.88 2 4.19v15.62c0 .31.03.6.09.87l11.4-11.41L2.09 3.36zm19.1 8.37l-2.84-1.62-3.09 3.09 3.09 3.09 2.87-1.64c.82-.47.82-1.45-.03-1.92zM4.4.29C4 .04 3.55.05 3.18.24L14.5 11.56l2.67-2.67L4.4.29z"/>
+            </svg>
+            <span class="dl-label">
+              <span>GET IT ON</span>
+              <strong>Google Play</strong>
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="phone-wrap">
+          <div class="phone-frame">
+            <div class="phone-notch"></div>
+            <div class="phone-statusbar">9:41</div>
+            <div class="phone-screen">
+              <div class="phone-header">
+                <span class="phone-appname">DURU</span>
+                <div class="phone-dot"></div>
+              </div>
+              <div class="phone-search">
+                <span class="phone-search-icon">&#9906;</span>
+                <span class="phone-search-text">어떤 바이크를 찾으시나요?</span>
+              </div>
+              <div class="phone-tabs">
+                <span class="phone-tab active">중고</span>
+                <span class="phone-tab">샵인증</span>
+                <span class="phone-tab">신차</span>
+              </div>
+              <div class="phone-cards">
+                <div class="phone-card">
+                  <div class="phone-card-thumb">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                      <circle cx="6" cy="17" r="3"/><circle cx="18" cy="17" r="3"/>
+                      <path d="M6 17H2V9l4-4h8l4 4h2l2 4h-2m-6 4H9m3-8v8"/>
+                    </svg>
+                  </div>
+                  <div class="phone-card-info">
+                    <div class="phone-card-name">혼다 PCX125</div>
+                    <div class="phone-card-meta">2022년 · 40,000km · 김해</div>
+                  </div>
+                  <div class="phone-card-price">215만원</div>
+                </div>
+                <div class="phone-card">
+                  <div class="phone-card-thumb">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                      <circle cx="6" cy="17" r="3"/><circle cx="18" cy="17" r="3"/>
+                      <path d="M6 17H2V9l4-4h8l4 4h2l2 4h-2m-6 4H9m3-8v8"/>
+                    </svg>
+                  </div>
+                  <div class="phone-card-info">
+                    <div class="phone-card-name">야마하 Y200</div>
+                    <div class="phone-card-meta">2025년 · 3km · 경기</div>
+                  </div>
+                  <div class="phone-card-price">550만원</div>
+                </div>
+                <div class="phone-card">
+                  <div class="phone-card-thumb">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                      <circle cx="6" cy="17" r="3"/><circle cx="18" cy="17" r="3"/>
+                      <path d="M6 17H2V9l4-4h8l4 4h2l2 4h-2m-6 4H9m3-8v8"/>
+                    </svg>
+                  </div>
+                  <div class="phone-card-info">
+                    <div class="phone-card-name">스즈키 GSX-R125</div>
+                    <div class="phone-card-meta">2019년 · 30,000km</div>
+                  </div>
+                  <div class="phone-card-price">240만원</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="phone-glow-outer"></div>
+          <div class="phone-badge">10,590+ 매물</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== STATS ===== -->
+<div class="stats-bar">
+  <div class="container">
+    <div class="stats-inner">
+      <div class="stat-cell highlight">
+        <div class="stat-num">10,590<span class="unit">+</span></div>
+        <div class="stat-label">등록 매물 수</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-num">3<span class="unit">종</span></div>
+        <div class="stat-label">거래 유형</div>
+        <div class="stat-sub">중고 · 샵인증 · 신차</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-num">전국</div>
+        <div class="stat-label">서비스 지역</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-num">무료</div>
+        <div class="stat-label">앱 이용 요금</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== SERVICES ===== -->
+<section id="services">
+  <div class="container">
+    <div class="sec-hd">
+      <div class="eyebrow"><div class="eyebrow-line"></div><span class="eyebrow-text">Services</span></div>
+      <h2 class="section-title">모든 바이크 거래를<br />한 곳에서</h2>
+      <p class="section-desc">DURU는 바이크 구매부터 판매까지 필요한 모든 것을 제공합니다.</p>
+    </div>
+    <div class="services-wrap">
+      <div class="svc-card">
+        <div class="svc-tag">중고거래</div>
+        <h3>중고 바이크</h3>
+        <div class="svc-rule"></div>
+        <p>전국 개인 판매자의 중고 바이크를 한눈에 비교하세요. 제조사, 배기량, 연식, 주행거리 필터로 원하는 매물을 빠르게 찾을 수 있습니다.</p>
+        <div class="svc-num">01</div>
+      </div>
+      <div class="svc-card">
+        <div class="svc-tag">인증매물</div>
+        <h3>샵 인증 매물</h3>
+        <div class="svc-rule"></div>
+        <p>전문 딜러가 상태와 서류를 직접 검증한 인증 매물만 모았습니다. 보다 안심하고 신뢰할 수 있는 거래를 경험하세요.</p>
+        <div class="svc-num">02</div>
+      </div>
+      <div class="svc-card">
+        <div class="svc-tag">신차</div>
+        <h3>신차 바이크</h3>
+        <div class="svc-rule"></div>
+        <p>국내외 브랜드 신차 정보를 확인하고 공식 딜러를 통해 구매까지 연결합니다. 최신 모델을 가장 빠르게 만나보세요.</p>
+        <div class="svc-num">03</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FEATURES ===== -->
+<section id="features" class="features">
+  <div class="container">
+    <div class="sec-hd">
+      <div class="eyebrow"><div class="eyebrow-line"></div><span class="eyebrow-text">Features</span></div>
+      <h2 class="section-title">DURU만의<br />차별화된 기능</h2>
+      <p class="section-desc">바이크 거래에 최적화된 기능으로 더 쉽고 안전하게 거래하세요.</p>
+    </div>
+    <div class="feat-grid">
+      <div class="feat-item">
+        <div class="feat-no">01</div>
+        <div>
+          <h3>정밀 검색 필터</h3>
+          <p>제조사, 모델, 배기량, 연식, 주행거리를 조합해 원하는 바이크를 정확하게 찾을 수 있습니다.</p>
+        </div>
+      </div>
+      <div class="feat-item">
+        <div class="feat-no">02</div>
+        <div>
+          <h3>인증 딜러 시스템</h3>
+          <p>검증된 전문 딜러의 매물에 인증 배지를 부여합니다. 믿을 수 있는 판매자와 거래하세요.</p>
+        </div>
+      </div>
+      <div class="feat-item">
+        <div class="feat-no">03</div>
+        <div>
+          <h3>실시간 채팅 문의</h3>
+          <p>관심 매물에 대해 판매자에게 바로 문의하세요. 빠른 응답으로 거래를 신속하게 진행합니다.</p>
+        </div>
+      </div>
+      <div class="feat-item">
+        <div class="feat-no">04</div>
+        <div>
+          <h3>찜하기 &amp; 알림</h3>
+          <p>관심 매물을 저장하고 가격 변동이나 새 매물 등록 시 푸시 알림을 받아보세요.</p>
+        </div>
+      </div>
+      <div class="feat-item">
+        <div class="feat-no">05</div>
+        <div>
+          <h3>전국 지역 기반</h3>
+          <p>서울·경기를 포함한 전국 매물을 지역별로 탐색할 수 있습니다.</p>
+        </div>
+      </div>
+      <div class="feat-item">
+        <div class="feat-no">06</div>
+        <div>
+          <h3>간편한 매물 등록</h3>
+          <p>사진 촬영 후 몇 단계만으로 매물을 등록하세요. 빠르게 판매를 시작할 수 있습니다.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== HOW IT WORKS ===== -->
+<section>
+  <div class="container">
+    <div class="sec-hd">
+      <div class="eyebrow"><div class="eyebrow-line"></div><span class="eyebrow-text">How it works</span></div>
+      <h2 class="section-title">이렇게 사용하세요</h2>
+    </div>
+    <div class="steps-row">
+      <div class="step-item">
+        <div class="step-no">01</div>
+        <h3>앱 설치</h3>
+        <p>App Store 또는 Google Play에서 DURU 앱을 무료로 설치하세요.</p>
+      </div>
+      <div class="step-item">
+        <div class="step-no">02</div>
+        <h3>매물 탐색</h3>
+        <p>원하는 조건으로 필터를 설정하고 전국 매물을 둘러보세요.</p>
+      </div>
+      <div class="step-item">
+        <div class="step-no">03</div>
+        <h3>판매자 문의</h3>
+        <p>마음에 드는 매물에 채팅으로 바로 문의하세요.</p>
+      </div>
+      <div class="step-item">
+        <div class="step-no">04</div>
+        <h3>거래 완료</h3>
+        <p>안전하게 거래를 진행하고 나만의 바이크를 만나세요.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== DOWNLOAD CTA ===== -->
+<section class="dl-section">
+  <div class="dl-glow"></div>
+  <div class="container">
+    <div class="eyebrow" style="justify-content:center;"><div class="eyebrow-line"></div><span class="eyebrow-text">Download</span></div>
+    <h2 class="section-title" style="text-align:center; margin-top:16px;">지금 DURU를<br />시작해보세요</h2>
+    <p class="section-desc" style="text-align:center; margin:16px auto 48px;">iOS와 Android 모두 지원합니다. 무료로 시작하세요.</p>
+    <div class="dl-btns">
+      <a href="#" class="btn-dl main">
+        <svg class="dl-icon" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+        </svg>
+        <span class="dl-label">
+          <span>Download on the</span>
+          <strong>App Store</strong>
+        </span>
+      </a>
+      <a href="#" class="btn-dl sub">
+        <svg class="dl-icon" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M3.18 23.76c.37.19.8.2 1.22-.05l12.5-7.13-2.67-2.7-11.05 9.88zm-1.09-20.4C2.03 3.6 2 3.88 2 4.19v15.62c0 .31.03.6.09.87l11.4-11.41L2.09 3.36zm19.1 8.37l-2.84-1.62-3.09 3.09 3.09 3.09 2.87-1.64c.82-.47.82-1.45-.03-1.92zM4.4.29C4 .04 3.55.05 3.18.24L14.5 11.56l2.67-2.67L4.4.29z"/>
+        </svg>
+        <span class="dl-label">
+          <span>GET IT ON</span>
+          <strong>Google Play</strong>
+        </span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="container">
+    <div class="foot-top">
+      <div>
+        <div class="foot-brand">DURU</div>
+        <p class="foot-desc">국내 바이크 거래 플랫폼 DURU.<br />주식회사 291플러스가 운영합니다.</p>
+      </div>
+      <div class="foot-col">
+        <h4>서비스</h4>
+        <ul>
+          <li><a href="#services">서비스 소개</a></li>
+          <li><a href="#features">주요 기능</a></li>
+          <li><a href="#download">앱 다운로드</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>정책</h4>
+        <ul>
+          <li><a href="privacy.html">개인정보처리방침</a></li>
+          <li><a href="terms.html">이용약관</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>고객지원</h4>
+        <ul>
+          <li><a href="support.html">고객센터</a></li>
+          <li><a href="support.html">자주 묻는 질문</a></li>
+          <li><a href="mailto:291plus@naver.com">이메일 문의</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <div class="foot-info">
+        <strong>주식회사 291플러스</strong> &nbsp;|&nbsp; 대표이사: 임지훈 &nbsp;|&nbsp; 사업자등록번호: 148-87-03687<br />
+        주소: 경기도 포천시 소흘읍 호국로287번길 9-60, 9동 비03호<br />
+        대표번호: 1533-0291 &nbsp;|&nbsp; 이메일: 291plus@naver.com
+      </div>
+      <div class="foot-copy">© 2025 291Plus Co., Ltd. All rights reserved.</div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  function toggleMenu() {
+    document.getElementById('nav').classList.toggle('open');
+  }
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      const id = a.getAttribute('href').slice(1);
+      if (!id) return;
+      const el = document.getElementById(id);
+      if (el) { e.preventDefault(); el.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+    });
+  });
+</script>
+</body>
+</html>
